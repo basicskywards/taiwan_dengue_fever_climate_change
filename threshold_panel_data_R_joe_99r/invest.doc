@@ -1,0 +1,38 @@
+INVEST.DOC
+
+The data file INVEST.DAT has observations on 565 firms over the 15 years
+1973-1987.
+
+The data are taken from the data file "pstar.dat" originally created
+by B.H. Hall and R.E. Hall for "The Value and Performance of U.S.
+Corporations" (Brookings Papers, 1993).  This file, and documentation
+file "pstar.doc" may be downloaded from the NBER FTP page.
+
+INVEST.DAT contains observations on four variables.  Using the notation
+from B. Hall's documentation file "pstar.doc":
+
+*  inva     investment to assets ratio.
+*  vala     total market value to assets ratio ("Tobin's Q").
+*  cfa      cash flow to assets ratio.
+*  debta    long term debt to assets ratio.
+
+
+The file "invest.dat" is a 8475x4 matrix.  The four variables are
+in each of the four columes, in the above order.  The observations
+are listed firm by firm (first 15 observations are from the first firm, 
+second 15 observations from the second, etc.).
+
+The orginal Hall data is an unbalanced panel for a longer set of years.
+Invest.dat contains all firms which had no missing values on the
+four selected variables for the years 1973-1987.
+
+
+Questions may be sent to
+
+Bruce E. Hansen
+Department of Economics
+University of Wisconsin
+Social Science Building
+Madison, WI 53706
+bhansen@wisc.edu
+http:/www.ssc.wisc.edu/~bhansen/
